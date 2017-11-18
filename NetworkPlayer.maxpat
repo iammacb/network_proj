@@ -38,9 +38,49 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 260.0, 199.0, 98.0, 20.0 ],
+					"style" : "",
+					"text" : "Dynamics"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 153.0, 199.0, 99.0, 20.0 ],
+					"style" : "",
+					"text" : "Scale"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-38",
+					"items" : [ ",", "ppp", ",", "pp", ",", "p", ",", "mp", ",", "mf", ",", "f", ",", "ff", ",", "fff", ",", "<", ",", ">", ",", "fp", ",", "sfz" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 260.0, 257.0, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"items" : [ "Major", ",", "Minor", ",", "Dorian", ",", "Phrygian", ",", "Lydian", ",", "Mixolydian", ",", "Locrian", ",", "Major", "Pentatonic", ",", "Minor", "Pentatonic" ],
 					"maxclass" : "umenu",
+					"menumode" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
@@ -147,9 +187,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.0, 61.0, 99.0, 22.0 ],
+					"patching_rect" : [ 260.0, 225.0, 99.0, 22.0 ],
 					"style" : "",
-					"text" : "udpreceive 6666"
+					"text" : "udpreceive 6662"
 				}
 
 			}
@@ -196,6 +236,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
