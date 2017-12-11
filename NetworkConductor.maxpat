@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
+<<<<<<< HEAD
+		"rect" : [ 34.0, 78.0, 791.0, 634.0 ],
+=======
 		"rect" : [ 7.0, 79.0, 784.0, 727.0 ],
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +42,8 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
+=======
 					"id" : "obj-31",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -193,11 +199,19 @@
 			}
 , 			{
 				"box" : 				{
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 					"id" : "obj-22",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
+					"patching_rect" : [ 14.0, 21.0, 72.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 21.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "New Player"
+=======
 					"patching_rect" : [ 177.0, 403.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "iam here"
@@ -419,18 +433,29 @@
 					"patching_rect" : [ 194.0, 79.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 500"
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+<<<<<<< HEAD
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 14.0, 55.0, 311.0, 22.0 ],
+					"style" : "",
+					"text" : "script newobject bpatcher NetworkConductorSubwindow"
+=======
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.0, 52.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "Time Signature"
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 				}
 
 			}
@@ -439,6 +464,12 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
+<<<<<<< HEAD
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 14.0, 90.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+=======
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.0, 216.0, 140.0, 22.0 ],
 					"style" : "",
@@ -453,38 +484,60 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.5, 219.333344, 140.0, 22.0 ],
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 					"style" : "",
-					"text" : "udpsend 127.0.0.1 6664"
+					"text" : "thispatcher"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"bgcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-21",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "NetworkConductorSubwindow.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.5, 109.0, 140.0, 22.0 ],
-					"style" : "",
-					"text" : "udpsend 127.0.0.1 6666"
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 14.0, 123.0, 530.0, 317.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 123.0, 530.0, 253.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-40",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "NetworkConductorSubwindow.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 12.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "Conductor"
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 14.0, 455.0, 530.0, 314.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 0 ]
+=======
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -629,11 +682,26 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-33", 1 ]
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "NetworkConductorSubwindow.maxpat",
+				"bootpath" : "~/Documents/School/UCSC/Music 125/network_proj",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+=======
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -748,9 +816,9 @@
 					"source" : [ "obj-44", 1 ]
 				}
 
+>>>>>>> 1342acad3eb917ae548246125037a61d17c8fbcb
 			}
  ],
-		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
